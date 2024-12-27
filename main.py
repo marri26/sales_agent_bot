@@ -65,5 +65,5 @@ if user_question:
             # display the query result
     
     st.chat_message("assistant").write(response_from_gpt)
-
+    # st.chat_message("prompt").write(st.session_state.chat_history)
   
